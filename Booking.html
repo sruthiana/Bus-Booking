@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Booking</title>
+  </head>
+  <style>
+
+   body{
+     background-image: linear-gradient(to right, red , white);
+   }
+
+   .box{
+     background-color: white;
+     width: 30%;
+     height: 300px;
+     border: 15px solid black;
+     padding: 50px;
+     margin: auto;
+   }
+
+  .ar:link, .ar:visited {
+    background-color: red;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    border-radius: 13px;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .btn{
+    background: none;
+	  color: inherit;
+	  border: none;
+	  padding: 0;
+	  font: inherit;
+	  cursor: pointer;
+	  outline: inherit;
+  }
+
+  .bus1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 1rem;
+    margin-bottom: -3%;
+    margin-top: -2%;
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 135%;
+    left: 50%;
+    padding: 70px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .next{
+    background-color: SlateBlue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    float: right;
+  }
+
+  .btn1{
+    background-color: white;
+    color: black;
+    border: 0 solid #555555;
+  }
+
+  .btn1:hover{
+    background-color: #555555;
+    color: white;
+  }
+
+  .save-btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+  }
+
+  </style>
+  <body>
+    <h1 style="text-align:center;">BUS BOOKING</h1>
+    <h2 style="text-align:center;">(Your ticket will be send<br>through your email after booking)</h2>
+    <img class="bus1" src="C:\Users\lakshmi T A\Desktop\Bus booking\bus.gif" alt="busimg" >
+    <div class="box">
+      <form action="C:\Users\lakshmi T A\Desktop\Bus booking\Thankyou.html">
+        <label for="location">Choose a destination:</label>
+        <select name="location" id="loc">
+          <option value="Ernakulam">Ernakulam</option>
+          <option value="Trivandram">Trivandram</option>
+          <option value="Kozhikode">Kozhikode</option>
+          <option value="Palakkad">Palakkad</option>
+        </select>
+        <br><br><br><br>
+        <label for="route">Which route:</label><br>
+        <input type="radio" id="route" name="route" value="one way">
+        <label for="route">one way</label><br>
+        <input type="radio" id="route" name="route" value="rt">
+        <label for="rt">Round Trip</label>
+        <br><br><br><br>
+        <label>Date:</label>
+        <input type="date" name="date" value="Date">
+        <br><br><br><br>
+        <input type="submit" value="SAVE" class="save-btn">
+      </form>
+      <form action="C:\Users\lakshmi T A\Desktop\Bus booking\About Us.html">
+        <input type="submit" value="NEXT" class="next btn1">
+      </form>
+    </div>
+    <div class="center">
+      <button type="button" name="home" class="btn"><a href="C:\Users\lakshmi T A\Desktop\Bus booking\exp2.html" target="_self" class="ar">Home</a></button>
+  </div>
+  </body>
+</html>
